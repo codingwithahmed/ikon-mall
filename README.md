@@ -1,2 +1,4 @@
-# ikon-mall
-Ikon-Mall Project
+# Frontend
+The given next app is made for ikon-mall
+
+# Backend
