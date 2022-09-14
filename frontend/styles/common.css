@@ -8,6 +8,9 @@
     white-space: nowrap;
 }
 
+.min-w-694 {
+    width: 694px;
+}
 
 .text-black-ikon {
     color: #171732;
@@ -20,4 +23,43 @@
 .sparkle {
     left: 95%;
     bottom: 85%;
+}
+
+.max-header-width {
+    width: 642px;
+}
+
+.hero-img {
+    max-width: 16rem;
+    top: 10%;
+}
+.hero-2 {
+    left: 57%;
+    max-width: 20rem;
+    top: 37%;
+}
+
+.hero-3 {
+    left: 80%;
+    top: 10%;
+}
+
+.sign-font {
+    font-family: 'Plus Jakarta Sans';
+    color: #626476;
+}
+
+
+
+
+@media screen and (min-width : 2560px ) {
+    .hero-3 {
+        left: 67%;
+        top: 13%;
+    }
+    .hero-2 {
+        left: 56%;
+        top: 33%;
+    }
+    
 }

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../public/fonts/plusJarka/PlusJakartaSans-Regular.ttf');
+}
+
 
 html,
 body {

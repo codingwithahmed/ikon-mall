@@ -1,5 +1,6 @@
+import Link from 'next/link'
 import { AuthInputField, PrimaryButton } from '../../Components/Common'
-import {HeaderRegister as Header} from '../../Components/Header'
+import {HeaderLogin as Header} from '../../Components/Header'
 export default function Register () {
 
 
@@ -14,30 +15,35 @@ export default function Register () {
                                         <img src='/header/Auth/sparkle.svg' className='sparkle absolute' />
                                 </div>
 
-                            
+                                <div className='min-w-694  max-w-2xl py-2'>
+                                    <p className='text-light-gray-ikon text-lg whitespace-pre-line' >
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor nibh quam aenean feugiat habitasse suspendisse nunc. Porttitor et, nibh ultrices nunc.
+                                    </p>
+                                </div>
 
-                                <div className='min-w-694 max-w-2xl my-2 py-2'>
+                                <div className='min-w-694 max-w-2xl  py-2'>
                                     <AuthInputField label={'Email'} icon={'/header/Auth/Email.svg'} type={'email'} />
-                                    <AuthInputField label={'Phone'} icon={'/header/Auth/Phone.svg'} type={'phone'} />
                                     <AuthInputField label={'Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />
                                     <div className='flex flex-row my-2'>
-                                            <input type={'checkbox'} />
-                                            <label className='ml-3'>I accepted <strong>Terms & Privacy Policy</strong></label>
+                                            <p className='underline text-black-ikon text-right min-w-full'>
+                                                <Link href={'/auth/forgotpassword'}>Forgot Password?</Link>  
+                                            </p>
                                     </div>
 
                                     <div className='min-w-694 max-w-2xl grid grid-cols-12 items-center justify-center py-2'>
                                             <img src='/header/Auth/line.svg' className='col-span-4' />
-                                            <p className='sign-font col-span-4 text-center'>Or sign up with</p>
+                                            <p className='sign-font col-span-4 text-center'>Or sign in with</p>
                                             <img src='/header/Auth/line.svg' className='col-span-4' />
-
                                     </div>
 
                                     <div className='min-w-694 max-w-2xl flex flex-row cursor-pointer items-center justify-center my-4 border-gray-300 border-2 rounded-xl py-2'>
                                                 <img src='/header/auth/google.svg' alt='google' />
-                                                <p className='ml-4 text-black-ikon text-lg'>Sign Up with Google</p>
+                                                <p className='ml-4 text-black-ikon text-lg'>Sign in with Google</p>
                                     </div>
 
-                                    <PrimaryButton className={'w-full my-2  py-2'}>Sign Up</PrimaryButton>
+
+
+                                    <PrimaryButton className={'w-full my-2 py-2'}>Sign In</PrimaryButton>
                                 </div>
                         </div>
 
