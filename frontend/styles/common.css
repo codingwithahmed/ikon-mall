@@ -8,6 +8,14 @@
     white-space: nowrap;
 }
 
+.white-button { 
+    background: white;
+    border-radius: 0.5rem;
+    color: #586BCA;;
+    
+    white-space: nowrap;
+}
+
 .min-w-694 {
     width: 694px;
 }
@@ -49,6 +57,26 @@
     color: #626476;
 }
 
+
+.ikon-primary-color_bg {
+    background: linear-gradient(126.87deg, #91AAFF 7.98%, #3752D7 81.51%)
+}
+.ikon-primary-color {
+    color: #586BCA;
+}
+
+.ikon_cart_circle {
+    top: -10%;
+    left: 50%;
+}
+
+
+.bg-newsletter {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 461.3px;
+    background-position: center center;
+}
 
 
 

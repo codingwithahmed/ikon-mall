@@ -1,6 +1,7 @@
 import {useState,useEffect} from 'react'
 import Link from 'next/link'
-import { PrimaryButton } from './Common'
+import { CartIcon, PrimaryButton } from './Common'
+import Image from 'next/image'
 
 
 export const HeaderLogin = () => { 
@@ -34,3 +35,30 @@ export const HeaderRegister = () => {
                         </div>  
                 </header> 
     )}  
+
+
+
+
+export const HeaderIndexLogout = () => {
+
+        return (
+                <header className='grid grid-cols-12 row-span-1 mt-5 items-center justify-center' >
+
+                                <div className='flex col-span-2 flex-col items-center justify-center'>
+                                        <img alt='' className='w-32' src={'/header/logo.svg'} />
+                                </div>
+
+                                <div className='col-span-6 flex flex-row justify-between items-center col-start-3 bg-gray-100  rounded-lg'>
+                                        <input className='outline-none p-3 bg-none border-none bg-transparent w-full' />
+                                        <PrimaryButton className={'p-3 h-full'} ><img src='/header/search.svg' /> </PrimaryButton>
+                                </div>
+
+                                <nav className='flex col-start-10 col-span-3 flex-row items-center justify-evenly'>
+                                        <Link href={'/'}><CartIcon /></Link>
+                                        <Link href={'/auth/login'}><p className='cursor-pointer ikon-primary-color hover:underline'>Sign in</p></Link>
+                                        <Link href={'/auth/register'}><PrimaryButton className={'px-4 py-2'}>Sign Up</PrimaryButton></Link>
+                                </nav>
+
+                </header>
+        )
+}
