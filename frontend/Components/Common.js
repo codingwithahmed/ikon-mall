@@ -31,7 +31,7 @@ export const CartIcon = () => {
     return <div className='flex flex-row  justify-between items-center'>
                 <div className="relative flex flex-row  justify-between items-center">
                             <div className="ikon-primary-color_bg px-1 text-xs absolute ikon_cart_circle rounded-xl text-white">
-                                    2
+                                    <p>2</p>
                             </div>
                         <img className='w-6 mr-2 ' src='/header/bag.svg' /> 
                 </div>

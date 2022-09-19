@@ -54,7 +54,7 @@ export const HeaderIndexLogout = () => {
                                 </div>
 
                                 <nav className='flex col-start-10 col-span-3 flex-row items-center justify-evenly'>
-                                        <Link href={'/'}><CartIcon /></Link>
+                                        <CartIcon />
                                         <Link href={'/auth/login'}><p className='cursor-pointer ikon-primary-color hover:underline'>Sign in</p></Link>
                                         <PrimaryButton className={'px-4 py-2'}><Link href={'/auth/register'}>Sign Up</Link></PrimaryButton>
                                 </nav>
