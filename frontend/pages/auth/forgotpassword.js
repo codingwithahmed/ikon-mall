@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { AuthInputField, PrimaryButton } from '../../Components/Common'
 import {HeaderLogin as Header} from '../../Components/Header'
-export default function Register () {
+export default function ForgotPassword () {
 
 
     return <div className='grid grid-rows-6 min-h-screen'>
