@@ -25,8 +25,8 @@ export default function Reset () {
 
                                 <div className='min-w-694 max-w-2xl  py-2'>
 
-                                    <AuthInputField label={'Password'} icon={'/header/Auth/lock.svg'} type={'password'} />  
-                                    <AuthInputField label={'Confirm Password'} icon={'/header/Auth/lock.svg'} type={'password'} />  
+                                    <AuthInputField label={'Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />  
+                                    <AuthInputField label={'Confirm Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />  
 
                                     <PrimaryButton className={'w-full my-2 py-4 '}><Link href={"/auth/login"}>Reset Password</Link></PrimaryButton>
                                 </div>
