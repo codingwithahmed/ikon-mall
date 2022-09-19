@@ -74,11 +74,13 @@
 .bg-newsletter {
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 461.3px;
+    min-height: 80vh;
     background-position: center center;
 }
 
-
+.p_ikon {
+    font-size: 17px;
+}
 
 @media screen and (min-width : 2560px ) {
     .hero-3 {

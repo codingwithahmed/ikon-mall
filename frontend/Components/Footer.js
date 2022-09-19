@@ -3,7 +3,7 @@ import { AuthInputField, NewsLetterInputField, WhiteButton } from "./Common"
 export const Footer = () => {
 
     return (
-        <footer className="flex flex-col " >
+        <footer className="flex flex-col min-h-screen" >
 
             <div className="grid grid-cols-12" >
                 <div className="col-span-10 grid grid-cols-12 bg-newsletter col-start-2" style={{
@@ -34,16 +34,24 @@ export const Footer = () => {
             <div className="grid grid-cols-12" >
                     <img className="col-start-2 col-span-1" src='/header/logo.svg' />
 
-                    <div className="col-start-5 col-span-6 w-full items-center justify-center grid grid-rows-2">
-                         <nav className="row-span-1 grid grid-cols-4">
-                            <label className="col-span-1">Privacy Policy</label>
-                            <label className="col-span-1">Terms &Services</label>
-                            <label className="col-span-1">About us</label>
-                            <label className="col-span-1">Contact us</label>
-                         </nav>
+                    <div className="col-start-4 col-span-6 w-full items-center grid grid-rows-2">
+
+                         <nav className="row-span-1 flex flex-row justify-evenly items-center w-full">
+                            <label className=" px-3 p_ikon whitespace-nowrap">Privacy Policy</label>
+                            <label className=" px-3 p_ikon whitespace-nowrap">Terms &Services</label>
+                            <label className=" px-3 p_ikon whitespace-nowrap">About us</label>
+                            <label className=" px-3 p_ikon whitespace-nowrap">Contact us</label>
+                         </nav> 
 
 
-                         <p>Copyright © 2022 iKon Mall | Powered by iKon Mall</p>
+                         <p className="row-span-1 p_ikon text-light-gray-ikon  text-center">Copyright © 2022 iKon Mall | Powered by iKon Mall</p>
+                    </div>
+
+                    <div className="flex flex-row col-start-10 col-span-2 justify-evenly items-center">
+                            <img src='/footer/twitter.svg' />
+                            <img src='/footer/facebook.svg' />
+                            <img src='/footer/youtube.svg' />
+
                     </div>
             </div>
             
