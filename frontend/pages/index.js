@@ -1,5 +1,6 @@
 import { Footer } from "../Components/Footer"
 import { HeaderIndexLogout } from "../Components/Header"
+import Menu from "../Components/Menu"
 
 
 const IndexNewUser = () => {
@@ -9,7 +10,7 @@ const IndexNewUser = () => {
   <main>
 
         <section>
-              index page
+              <Menu/>
         </section>
 
   </main>
