@@ -16,7 +16,7 @@ export const Footer = () => {
                         <h1 className="text-white font-extrabold text-5xl"  >Join our newsletter now!</h1>
                         <p className="text-white ">Register now and get our latest updates and promos.</p>
                         <div className="flex flex-row">
-                            <NewsLetterInputField type={'email'} label="Email" icon={'/footer/email.svg'} />
+                            <NewsLetterInputField type={'email'} label="Email" icon={'/footer/Email.svg'} />
                             <div className="flex flex-row items-end mb-3 ml-4 justify-center">
                                 <WhiteButton className={'p-4 px-6'}>
                                      Send
