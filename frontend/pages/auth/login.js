@@ -37,7 +37,7 @@ export default function Login () {
                                     </div>
 
                                     <div className='min-w-694 max-w-2xl flex flex-row cursor-pointer items-center justify-center my-4 border-gray-300 border-2 rounded-xl py-2'>
-                                                <img src='/header/auth/google.svg' alt='google' />
+                                                <img src='/header/Auth/google.svg' alt='google' />
                                                 <p className='ml-4 text-black-ikon text-lg'>Sign in with Google</p>
                                     </div>
 
