@@ -12,7 +12,7 @@ export const Footer = () => {
 
                     
                     
-                    <div className="col-start-7 col-span-5 flex flex-col justify-center" >
+                    <div className="col-start-7 col-end-12 flex flex-col justify-center" >
                         <h1 className="text-white font-extrabold text-5xl"  >Join our newsletter now!</h1>
                         <p className="text-white ">Register now and get our latest updates and promos.</p>
                         <div className="flex flex-row">
