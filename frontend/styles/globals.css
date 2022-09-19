@@ -1,7 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-
+@import 'build.css';
 
 @font-face {
   font-family: 'Plus Jakarta Sans';
