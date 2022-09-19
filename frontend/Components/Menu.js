@@ -2,7 +2,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper';
 import Image from "next/image"
-import background2 from "../public/slider/background2.png"
 import camera from "../public/camera.png"
 import group from "../public/group.png"
 import "swiper/css";
@@ -29,20 +28,33 @@ function Menu() {
 
                 >
                     <SwiperSlide>
-                        <Image className='relative' src={background2} />
+                        <img className='relative min-w-full' src={'slider/background2.png'} />
                         <div className='absolute' style={{ color: "#171732", left: "70px" }}>
                             <div className=' flex flex-col justify-items-start text-left'>
-                                <h1 className='text-5xl font-bold'>Trend Alarm</h1>
-                                <h1 className='text-5xl font-bold'> ‘’Green”</h1>
+                                <h1 className='text-6xl font-bold'>Trend Alarm</h1>
+                                <h1 className='text-6xl font-bold'> ‘’Green”</h1>
                                 <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit, sed do eiusmod tempor.</p>
                                 <button className='btn rounded-md w-32 my-2 text-sm py-2 text-white ' style={{ background: "linear-gradient(71.85deg, #91AAFF 2.68%, #3752D7 97.55%)" }}>Shop Now</button>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
+
+                    <SwiperSlide>
+                        <img className='relative min-w-full rounded-lg' src={'slider/slide-2.png'} />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img className='relative min-w-full rounded-lg' src={'slider/slide-3.png'} />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img className='relative min-w-full rounded-lg' src={'slider/slide-4.png'} />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img className='relative min-w-full rounded-lg' src={'slider/slide-5.png'} />
+                    </SwiperSlide>
+                    
                 </Swiper>
             </div>
             <div className='flex flex-col justify-start mx-24' style={{ color: "#171732" }}>
