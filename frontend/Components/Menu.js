@@ -107,7 +107,7 @@ function Menu() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='grid grid-flow-col auto-cols-max md:auto-cols-min gap-5'>
-                                <div style={{ backgroundColor: "rgb(244 245 246)", height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between">
+                            <div style={{  height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between bg-slate-100">
                                     <p className='font-bold'>All</p>
                                     <div style={{ alignItems: "center" }} className="flex">
                                         <p className='text-sm mx-2'>1.150 products</p>
@@ -116,7 +116,7 @@ function Menu() {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ backgroundColor: "rgb(244 245 246)", height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between">
+                                <div style={{  height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between bg-slate-100">
                                     <p className='font-bold'>All</p>
                                     <div style={{ alignItems: "center" }} className="flex">
                                         <p className='text-sm mx-2'>1.150 products</p>
@@ -125,7 +125,7 @@ function Menu() {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ backgroundColor: "rgb(244 245 246)", height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between">
+                                <div style={{  height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between bg-slate-100">
                                     <p className='font-bold'>All</p>
                                     <div style={{ alignItems: "center" }} className="flex">
                                         <p className='text-sm mx-2'>1.150 products</p>
@@ -134,7 +134,7 @@ function Menu() {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ backgroundColor: "rgb(244 245 246)", height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between">
+                                <div style={{  height: "70px", width: "260px", alignItems: "center" }} className=" px-3 rounded-xl flex justify-between bg-slate-100">
                                     <p className='font-bold'>All</p>
                                     <div style={{ alignItems: "center" }} className="flex">
                                         <p className='text-sm mx-2'>1.150 products</p>
@@ -150,6 +150,13 @@ function Menu() {
             </div>
             <div className='flex flex-col justify-center items-center my-20' style={{ color: "#171732" }}>
                 <div className='relative flex flex-col justify-center items-center' style={{ width: "700px" }}>
+                    
+                    <img src='/index/circle.svg' className='w-full absolute' style={{
+                        right:"-60%",
+                        maxWidth:"893px",
+                        top:"10%"
+                    }} />
+
                     <h1 className='text-5xl font-bold'>
                         New Arrivals
                     </h1>
@@ -174,6 +181,10 @@ function Menu() {
             </div>
             <div className='flex flex-col mt-10' style={{ color: "#171732" }}>
                 <div className='flex mx-36 relative'>
+                    <img src='/index/circle.svg' className='w-full absolute ' style={{
+                        left:"-6%",
+                        maxWidth:"893px"
+                    }} />
                     <div >
                         <h2 className='text-3xl font-bold'>
                             Flash Sale
@@ -234,14 +245,8 @@ function Menu() {
                         <Image src={triangle} />
                     </div>
                 </div>
-                <div className='flex flex-col justify-center items-center'>
-                    <div className='grid grid-cols-6 gap-5 mt-10' style={{ width: "1050px" }}>
-                        <ExplorerCard/>
-                        <ExplorerCard/>
-                        <ExplorerCard/>
-                        <ExplorerCard/>
-                        <ExplorerCard/>
-                        <ExplorerCard/>
+                <div className='flex flex-col justify-center items-center px-24'>
+                    <div className='grid grid-cols-3 w-full gap-5 mt-10' >
                         <ExplorerCard/>
                         <ExplorerCard/>
                         <ExplorerCard/>

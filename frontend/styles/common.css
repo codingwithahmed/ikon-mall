@@ -2,17 +2,43 @@
 
 
 .primary-button { 
-    background: linear-gradient(71.85deg, #91AAFF 2.68%, #3752D7 97.55%);
-    border-radius: 0.5rem;
-    color: white;;
-    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px;
+    gap: 10px;
+    
+    color: white;
+    
+    background: linear-gradient(136.85deg, #91AAFF 10.37%, #3752D7 89.53%);
+    border-radius: 14px;
+}
+
+.outline-primary-button { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px;
+    gap: 10px;
+    color: black;
+    border:  solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(136.85deg, #91AAFF 10.37%, #3752D7 89.53%);
+    border-radius: 14px;
+    background: none;
+}
+
+.gradient {
+     background: linear-gradient(136.85deg, #91AAFF 10.37%, #3752D7 89.53%);
 }
 
 .white-button { 
     background: white;
     border-radius: 0.5rem;
-    color: #586BCA;;
-    
+    color: #586BCA;
     white-space: nowrap;
 }
 
@@ -29,8 +55,8 @@
 }
 
 .sparkle {
-    left: 95%;
-    bottom: 85%;
+    left: 75%;
+    bottom: 70%;
 }
 
 .max-header-width {
@@ -78,8 +104,99 @@
     background-position: center center;
 }
 
+.footer_50 {
+    clip-path: polygon(0 50%, 100% 50%, 100% 99%, 0% 100%);
+}
+
 .p_ikon {
     font-size: 17px;
+}
+
+
+.heading1 {
+    font-size: 48.83px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+.heading2 {
+    font-size: 39.06px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+.heading3 {
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+.heading4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0F172A;
+}
+
+.heading5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0F172A;
+}
+
+.main-purple {
+    color: #586BCA;
+}
+
+.input-heading {
+    font-weight: 600;
+    font-size: 15px;
+    color: #0F172A;
+}
+
+.body-large {
+    font-size: 20px ;
+    font-weight: 400;
+    color: #334155;
+}
+
+.body-regular {
+    font-size: 15px ;
+    font-weight:400;
+    color: #334155;
+}
+
+.small-text-dark {
+    font-size:  12.8px;
+    font-weight: 500;
+    color: #64748B;
+}
+
+.small-text-light {
+    font-size: 12.8px ;
+    font-weight: 500;
+    color: #94A3B8;
+}
+
+.button-text {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0F172A;
+}
+.link-button {
+    font-style: normal;
+font-weight: 600;
+font-size: 15px;
+text-decoration-line: underline;
+color: #0F172A;
+}
+
+.shadow_contact {
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+}
+
+.sparkle_contact {
+    top: -25%;
+    left: 370px;
 }
 
 @media screen and (min-width : 2560px ) {

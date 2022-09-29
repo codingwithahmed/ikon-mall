@@ -10,7 +10,11 @@ export const HeaderLogin = () => {
             <header className='grid row-span-1   py-6 grid-cols-12 items-center justify-around'>
                     
                     <div className='flex flex-col col-end-4 col-start-2 items-start justify-center'>
-                           <span className='cursor-pointer'><Link href={'/'}><img className='' src={'/header/logo.svg'} /></Link> </span>
+                           <span className='cursor-pointer'><Link href={'/'}><img 
+                                className='w-28' 
+                                src={'/header/logo.svg'} 
+                                
+                                /></Link> </span>
                     </div>
 
                     <div className='flex flex-row items-center justify-end col-start-5 col-end-12'>
@@ -54,7 +58,7 @@ export const HeaderIndexLogout = () => {
                                 </div>
 
                                 <nav className='flex col-start-10 col-span-3 flex-row items-center justify-evenly'>
-                                        <CartIcon />
+                                        <CartIcon />    
                                         <Link href={'/auth/login'}><p className='cursor-pointer ikon-primary-color hover:underline'>Sign in</p></Link>
                                         <PrimaryButton className={'px-4 py-2'}><Link href={'/auth/register'}>Sign Up</Link></PrimaryButton>
                                 </nav>

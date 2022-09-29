@@ -12,6 +12,18 @@ export const PrimaryButton = ({
     </button>
 }
 
+export const OutlinedPrimaryButton = ({
+    children,
+    className
+}) => {
+
+    return <button className={`outline-primary-button ${className}`}> 
+
+        {children}
+
+    </button>
+}
+
 export const WhiteButton = ({
     children,
     className
@@ -50,11 +62,11 @@ export const AuthInputField = ({
             setShow(!show)
     },[show])
 
-    return <div className="flex flex-col w-full py-2">
-        <label className="text-black-ikon font-semibold text-lg">{label}</label>
-        <div className="bg-none flex flex-row outline-none border-gray-400 border-2 px-4 py-4 rounded-2xl w-full">
+    return <div className="flex flex-col my-2 w-full py-2">
+        <label className="text-slate-900 font-semibold text-lg">{label}</label>
+        <div className="bg-none flex flex-row outline-none border-slate-400 px-6 py-3 rounded-2xl w-full" style={{borderWidth : "0.8px"}}>
             <img src={icon} className={"w-5"} />
-            <input type={ show ? 'text' : type} className={"ml-1 text-light-gray-ikon bg-none outline-none w-full"}/>
+            <input type={ show ? 'text' : type} className={"ml-1 text-slate-400 text-sm bg-none outline-none w-full"}/>
             {
                 type == 'password' ? <img src={'/header/Auth/show.svg'} onClick={handleShow}  className={"w-5 cursor-pointer"} /> : '' 
             }
@@ -62,7 +74,30 @@ export const AuthInputField = ({
     </div>
 }
 
+export const ContactInputField = ({
+    label,
+    icon,
+    multiline
+}) => {
+    const [show,setShow] = useState(false)
+    const handleShow = useCallback(() => {
+            setShow(!show)
+    },[show])
 
+    return <div className="flex flex-col my-2 w-full py-2">
+        <label className="input-heading">{label}</label>
+        <div className="bg-none flex flex-row outline-none border-slate-400 px-6 py-3 rounded-2xl w-full" style={{borderWidth : "0.8px"}}>
+            
+            {
+                multiline == true ? <textarea typeof="text" style={{
+                    minHeight:'145px'
+                }} className="ml-1 text-slate-400 text-sm bg-none outline-none w-full" /> : <input type='text'  className={"ml-1 text-slate-400 text-sm bg-none outline-none w-full"}/> 
+            }
+
+
+        </div>
+    </div>
+}
 
 export const NewsLetterInputField = ({
     label,

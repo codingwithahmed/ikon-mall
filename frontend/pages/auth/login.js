@@ -11,12 +11,12 @@ export default function Login () {
                         <div className='col-start-2 col-span-5 flex flex-col items-center justify-center'>
                                
                                 <div className='relative min-w-694  max-w-2xl  py-2'>
-                                        <h1 className='text-6xl text-left whitespace-nowrap text-black-ikon font-bold'> Welcome to iKon Mall</h1>
+                                        <h1 className='text-5xl text-left whitespace-nowrap text-black-ikon font-bold'> Welcome to iKon Mall</h1>
                                         <img src='/header/Auth/sparkle.svg' className='sparkle absolute' />
                                 </div>
 
                                 <div className='min-w-694  max-w-2xl py-2'>
-                                    <p className='text-light-gray-ikon text-lg whitespace-pre-line' >
+                                    <p className='text-sm text-slate-700 whitespace-pre-line' >
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor nibh quam aenean feugiat habitasse suspendisse nunc. Porttitor et, nibh ultrices nunc.
                                     </p>
                                 </div>
@@ -24,15 +24,19 @@ export default function Login () {
                                 <div className='min-w-694 max-w-2xl  py-2'>
                                     <AuthInputField label={'Email'} icon={'/header/Auth/Email.svg'} type={'email'} />
                                     <AuthInputField label={'Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />
+                                    <PrimaryButton className={'w-full my-2 py-2'}>Continue</PrimaryButton>
+
                                     <div className='flex flex-row my-2'>
-                                            <p className='underline text-black-ikon text-right min-w-full'>
+                                            <p className='text-slate-900 text-sm text-right min-w-full'>
                                                 <Link href={'/auth/forgotpassword'}>Forgot Password?</Link>  
                                             </p>
                                     </div>
 
+
+
                                     <div className='min-w-694 max-w-2xl grid grid-cols-12 items-center justify-center py-2'>
                                             <img src='/header/Auth/line.svg' className='col-span-4' />
-                                            <p className='sign-font col-span-4 text-center'>Or sign in with</p>
+                                            <p className='sign-font col-span-4 text-sm text-center'>Or sign in with</p>
                                             <img src='/header/Auth/line.svg' className='col-span-4' />
                                     </div>
 
@@ -43,7 +47,6 @@ export default function Login () {
 
 
 
-                                    <PrimaryButton className={'w-full my-2 py-2'}>Sign In</PrimaryButton>
                                 </div>
                         </div>
 
