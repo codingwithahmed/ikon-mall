@@ -18,7 +18,7 @@ export default function Register () {
 
                                 <div className='min-w-694 max-w-2xl my-2 py-2'>
                                     <AuthInputField label={'Email'} icon={'/header/Auth/Email.svg'} type={'email'} />
-                                    <AuthInputField label={'Phone'} icon={'/header/Auth/Phone.svg'} type={'phone'} />
+                                    <AuthInputField label={'Phone Number'} icon={'/header/Auth/Phone.svg'} type={'phone'} />
                                     <AuthInputField label={'Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />
                                     <div className='flex flex-row my-2'>
                                             <input type={'checkbox'} />

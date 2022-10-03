@@ -24,7 +24,7 @@ export default function Login () {
                                 <div className='min-w-694 max-w-2xl  py-2'>
                                     <AuthInputField label={'Email'} icon={'/header/Auth/Email.svg'} type={'email'} />
                                     <AuthInputField label={'Password'} icon={'/header/Auth/Lock.svg'} type={'password'} />
-                                    <PrimaryButton className={'w-full my-2 py-2'}>Continue</PrimaryButton>
+                                    <PrimaryButton className={'w-full my-2 py-2'}>Sign In</PrimaryButton>
 
                                     <div className='flex flex-row my-2'>
                                             <p className='text-slate-900 text-sm text-right min-w-full'>
