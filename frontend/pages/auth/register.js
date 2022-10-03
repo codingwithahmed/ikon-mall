@@ -25,6 +25,9 @@ export default function Register () {
                                             <label className='ml-3'>I accepted <strong>Terms & Privacy Policy</strong></label>
                                     </div>
 
+                                    <PrimaryButton className={'w-full my-2  py-2'}>Sign Up</PrimaryButton>
+
+
                                     <div className='min-w-694 max-w-2xl grid grid-cols-12 items-center justify-center py-2'>
                                             <img src='/header/Auth/line.svg' className='col-span-4' />
                                             <p className='sign-font col-span-4 text-center'>Or sign up with</p>
@@ -37,7 +40,6 @@ export default function Register () {
                                                 <p className='ml-4 text-black-ikon text-lg'>Sign Up with Google</p>
                                     </div>
 
-                                    <PrimaryButton className={'w-full my-2  py-2'}>Sign Up</PrimaryButton>
                                 </div>
                         </div>
 
