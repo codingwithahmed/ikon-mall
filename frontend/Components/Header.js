@@ -49,7 +49,9 @@ export const HeaderIndexLogout = () => {
                 <header className='grid grid-cols-12 row-span-1 mt-5 items-center justify-center' >
 
                                 <div className='flex col-span-2 flex-col items-center justify-center'>
-                                        <img alt='' className='w-32' src={'/header/logo.svg'} />
+                                        <Link href={'/'}>
+                                                <img alt='' className='w-32' src={'/header/logo.svg'} />
+                                        </Link>
                                 </div>
 
                                 <div className='col-span-6 flex flex-row justify-between items-center col-start-3 bg-gray-100  rounded-lg'>
