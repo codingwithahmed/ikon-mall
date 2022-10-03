@@ -40,7 +40,7 @@ export default function ForgotPassword () {
                                     <img src='/header/Auth/hero-3.svg' className='rounded-xl absolute hero-3' alt=''/>
                                     <img src='/index/circle.svg' className='rounded-xl absolute' style={{
                                         top:"0",
-                                        left:"5%",
+                                        left:"15%",
                                         right:"0",
                                         bottom:"0"
                                     }} alt=''  />
