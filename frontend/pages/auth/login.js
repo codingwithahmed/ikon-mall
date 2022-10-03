@@ -54,7 +54,10 @@ export default function Login () {
                                     <img src='/header/Auth/hero-1.png' className='rounded-xl hero-img absolute' alt=''/>
                                     <img src='/header/Auth/hero-2.png' className='rounded-xl hero-2 absolute' alt=''/>
                                     <img src='/header/Auth/hero-3.svg' className='rounded-xl absolute hero-3' alt=''/>
-
+                                    <img src='/index/circle.svg' className='rounded-xl absolute' style={{
+                                        top:"0%",
+                                        left:"0%"
+                                    }} alt=''  />
                         </div>
             </div>
 
