@@ -50,7 +50,7 @@ export const HeaderIndexLogout = () => {
 
                                 <div className='flex col-span-2 flex-col items-center justify-center'>
                                         <Link href={'/'}>
-                                                <img alt='' className='w-32' src={'/header/logo.svg'} />
+                                                <img alt='' className='w-32 cursor-pointer' src={'/header/logo.svg'} />
                                         </Link>
                                 </div>
 
