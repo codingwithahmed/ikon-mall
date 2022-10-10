@@ -12,6 +12,7 @@ import thunder from "../public/thunder.png"
 import arrow from "../public/arrow.png"
 import ExplorerCard from './ExplorerCard';
 import triangle from "../public/triangle.png"
+import Link from 'next/link';
 
 function Menu() {
     return (
@@ -254,7 +255,7 @@ function Menu() {
                         <ExplorerCard/>
                         <ExplorerCard/>
                     </div>
-                    <a href='/shop/explore' className='mt-10 text-blue-600 text-sm underline'>See All</a>
+                    <Link href='/shop/explore'><p  className='mt-10 cursor-pointer text-blue-600 text-sm underline'>See All</p></Link>
                 </div>
             </div>
         </div>

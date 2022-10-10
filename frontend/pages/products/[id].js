@@ -281,7 +281,7 @@ export const SingleProduct = () => {
                         <div className="flex flex-col">
 
                             {
-                                reviewAll ? x.map(i => <ReviewProductCard /> ) : x.splice(0,3).map(i => <ReviewProductCard /> )
+                                reviewAll ? x.map(i => <div key={Math.random()*100000}><ReviewProductCard /></div> ) : x.splice(0,3).map(i => <div key={Math.random()*100000}><ReviewProductCard /></div> )
                             }
 
 

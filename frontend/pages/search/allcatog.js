@@ -31,8 +31,8 @@ const RatingCheckBox = ({
 
         <div className="flex flex-row items-center">
             {
-                stars.map(i => 
-                    <img src='/common/star.svg' className="ml-2" />
+                stars.map((i,e) => 
+                    <img key={e} src='/common/star.svg' className="ml-2" />
                     )
             }
         </div>
