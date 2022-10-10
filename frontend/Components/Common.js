@@ -1,4 +1,6 @@
 import { useCallback, useState } from "react"
+import Link from "next/link"
+
 
 export const PrimaryButton = ({
     children,
@@ -121,4 +123,26 @@ export const NewsLetterInputField = ({
     </div>
 }
 
+export const BreadCrumbs = ({
+    path
+}) => {
 
+    return <div className="grid grid-cols-12 min-h-full">
+    <div className="col-start-1 cols-end-11 grid grid-cols-12 ">
+       
+        <div className="col-start-4 col-end-11 p-5 flex flex-row items-center" >
+            <p className="small-text-light"><Link href={'/'}>{"Home"}</Link></p>
+            
+                {
+                   path ? path.map((item,i) => <>
+                 
+                            <span className="text-medium mx-2">{">"}</span>
+                            <p className={ path.length - 1 == i ? "small-text-light main-purple whitespace-nowrap " : "small-text-light whitespace-nowrap "}><Link href={item.src}>{item.label}</Link></p> 
+                    </>) : ''
+                }
+    
+            
+        </div>
+    </div>
+</div>
+} 

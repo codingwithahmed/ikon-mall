@@ -233,11 +233,11 @@ function Menu() {
             </div>
             <div className='flex flex-col mt-10' style={{ color: "#171732" }}>
                 <div className='flex mx-36 relative'>
-                    <div >
-                        <h2 className='text-3xl font-bold'>
+                     <div >
+                        <h2 className='heading1'>
                             Explorer Shops
                         </h2>
-                        <p className='w-64' style={{ fontSize: "10px" }}>
+                        <p className='w-[480px] body-regular' >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         </p>
                     </div>
@@ -254,7 +254,7 @@ function Menu() {
                         <ExplorerCard/>
                         <ExplorerCard/>
                     </div>
-                    <a href='#' className='mt-10 text-blue-600 text-sm underline'>See All</a>
+                    <a href='/shop/explore' className='mt-10 text-blue-600 text-sm underline'>See All</a>
                 </div>
             </div>
         </div>

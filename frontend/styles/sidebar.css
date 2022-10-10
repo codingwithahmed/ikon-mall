@@ -1,0 +1,26 @@
+
+.slider-thumb::-webkit-slider-thumb {
+    @apply appearance-none w-3 h-3 rounded-full bg-slate-100  cursor-pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+  }
+
+  .slider-thumb::-webkit-slider-thumb  ::before {
+    content: 'FUCK U';
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+  }
+
+  .slider-thumb::-webkit-slider-runnable-track  {
+    @apply appearance-none w-full rounded outline-none;
+   /* background: linear-gradient();
+    */
+  }
+
+  .slider-thumb {
+    }
+
+  

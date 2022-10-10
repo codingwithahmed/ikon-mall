@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useState } from 'react'
 import logo from "../public/Logo.png"
 import { OutlinedPrimaryButton, PrimaryButton } from './Common'
@@ -48,7 +49,7 @@ function ExplorerCard() {
                                     </div>
 
                                     <div className='flex flex-col'>
-                                            <PrimaryButton className={'body-regular my-3'}> <p className='text-white'>View Shop</p>  </PrimaryButton>
+                                    <a href={'/profile/shop'}><PrimaryButton className={'body-regular my-3'}> <p className='text-white'>View Shop</p>  </PrimaryButton></a>
                                             <OutlinedPrimaryButton className={'body-regular my-3'}> <p className='main-purple'>Message</p> </OutlinedPrimaryButton>
                                     </div>
                             </div>  

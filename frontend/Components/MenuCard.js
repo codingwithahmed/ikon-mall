@@ -6,18 +6,19 @@ import filledStar from "../public/Star.png"
 import star from "../public/Star2.png"
 import bag from "../public/bag.png"
 import heart from "../public/Heart.png"
+import Link from 'next/link'
 
 function MenuCard({imgClass, upperSection, bagIconLeft, bagIconTop, redCircle}) {
     return (
-        <div>
+        <Link href={'/products/exampleproduct'}><div className='rounded-lg cursor-pointer'>
             <div className="flex flex-col justify-center items-center">
                 <div className="block px-6 relative rounded-lg shadow-lg bg-white max-w-sm">
                     <div className="flex flex-col justify-center items-center">
-                        <div className={`grid grid-cols-2 gap-${upperSection}`}>
+                        <div className={`grid grid-cols-2 gap-${upperSection} w-full`}>
                             <div className='rounded-full flex justify-center items-center text-white p-0.5' style={{ width: "30px", height: "30px", backgroundColor: "#FF6264" }}>
                                 <p className=' text-xs'>{redCircle}</p>
                             </div>
-                            <div>
+                            <div className='flex flex-row items-center justify-end'>
                                 <button className='w-8 flex justify-center items-center rounded p-2' style={{ backgroundColor: "#EFEFEF"}}>
                                     <Image src={heart}/>
                                 </button>
@@ -47,7 +48,7 @@ function MenuCard({imgClass, upperSection, bagIconLeft, bagIconTop, redCircle}) 
                     </div>
                 </div>
             </div>
-        </div>
+        </div></Link>
     )
 }
 

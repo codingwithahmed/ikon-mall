@@ -1,0 +1,28 @@
+.signle-product-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 59px;
+}
+
+.imp_slate-400-text {
+    color: #94A3B8 !important;
+}
+
+
+.badge-text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}
+
+.gradient-bg {
+    background: linear-gradient(136.85deg, #91AAFF 10.37%, #3752D7 89.53%);
+}
+
+.product-shop-avatar {
+    box-shadow: 10px 10px 54px rgba(23, 23, 50, 0.08);
+}

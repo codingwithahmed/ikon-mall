@@ -56,7 +56,7 @@ export const HeaderIndexLogout = () => {
 
                                 <div className='col-span-6 flex flex-row justify-between items-center col-start-3 bg-gray-100  rounded-lg'>
                                         <input className='outline-none p-3 bg-none border-none bg-transparent w-full' />
-                                        <PrimaryButton className={'p-3 h-full'} ><img src='/header/search.svg' /> </PrimaryButton>
+                                        <PrimaryButton className={'p-3 h-full'} ><a href={'/search/product'}><img src='/header/search.svg' /></a></PrimaryButton>
                                 </div>
 
                                 <nav className='flex col-start-10 col-span-3 flex-row items-center justify-evenly'>

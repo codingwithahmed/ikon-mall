@@ -43,10 +43,10 @@ export const Footer = () => {
                     <div className="col-start-4 col-span-6 w-full items-center grid grid-rows-2">
 
                          <nav className="row-span-1 flex flex-row justify-evenly items-center w-full">
-                            <label className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/policy'}>Privacy Policy</Link></label>
-                            <label className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/terms'}>Terms &Services</Link></label>
-                            <label className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/about'}>About us</Link></label>
-                            <label className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/contact'}>Contact us</Link></label>
+                            <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/policy'}>Privacy Policy</Link></div>
+                            <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/terms'}>Terms &Services</Link></div>
+                            <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/about'}>About us</Link></div>
+                            <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/contact'}>Contact us</Link></div>
                          </nav> 
 
 
