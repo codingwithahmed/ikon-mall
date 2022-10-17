@@ -56,13 +56,13 @@ export default function Index () {
 
                         <div className='flex flex-row my-6'>
                                 <div className='flex cursor-pointer flex-row mx-8' onClick={() => setSelected('notification')}>
-                                    <img src={'/profile/user/notification/bell.svg'} />
-                                    <h6 className='heading6 mx-2'>Notifications(54)</h6>
+                                    <img src={selected == 'message' ? '/profile/user/notification/notfication.svg' : '/profile/user/notification/bell.svg'} />
+                                    <h6 className={ selected == 'message' ? 'heading6 mx-2' : 'heading6 text-slate-300 mx-2'}>Notifications(54)</h6>
                                 </div>
 
                                 <div className='flex cursor-pointer flex-row mx-8' onClick={() => setSelected('message')}>
-                                    <img src={'/profile/user/notification/message.svg'} />
-                                    <h6 className='heading6 text-slate-300 mx-2'>Messages(12)</h6>
+                                    <img src={ selected == 'message' ? '/profile/user/message.svg': '/profile/user/notification/message.svg'} />
+                                    <h6 className={ selected == 'message' ? 'heading6 mx-2' : 'heading6 text-slate-300 mx-2'}>Messages(12)</h6>
                                 </div>
                         </div>
 
