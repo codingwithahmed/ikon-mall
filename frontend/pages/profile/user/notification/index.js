@@ -9,7 +9,7 @@ import { MessageItem, NotificationItem } from '../../../../Components/Notificati
 
 
 export default function Index () {
-    const [empty ,setEmpty] = useState(true)
+    const [empty ,setEmpty] = useState(false)
 
     const [selected ,setSelected] = useState('notification')
 
