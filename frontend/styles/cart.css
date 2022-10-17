@@ -1,0 +1,16 @@
+.heading-cart-item {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+
+.cart-item-img-box-shadow {
+    filter: drop-shadow(10px 10px 54px rgba(23, 23, 50, 0.08));
+border-radius: 20px;
+}
+
+.order-summary-box-shadow {
+    box-shadow: 10px 10px 54px rgba(23, 23, 50, 0.08);
+}

@@ -10,9 +10,9 @@ import Link from 'next/link'
 
 function MenuCard({imgClass, upperSection, bagIconLeft, bagIconTop, redCircle}) {
     return (
-        <Link href={'/products/exampleproduct'}><div className='rounded-lg cursor-pointer'>
+        <Link href={'/products/exampleproduct'}><div className='rounded-3xl cursor-pointer'>
             <div className="flex flex-col justify-center items-center">
-                <div className="block px-6 relative rounded-lg shadow-lg bg-white max-w-sm">
+                <div className="block px-6 relative rounded-2xl shadow-lg bg-white max-w-sm">
                     <div className="flex flex-col justify-center items-center">
                         <div className={`grid grid-cols-2 gap-${upperSection} w-full`}>
                             <div className='rounded-full flex justify-center items-center text-white p-0.5' style={{ width: "30px", height: "30px", backgroundColor: "#FF6264" }}>
@@ -41,7 +41,7 @@ function MenuCard({imgClass, upperSection, bagIconLeft, bagIconTop, redCircle}) 
                             <p className='text-sm font-bold'>$299</p>
                         </div>
                         <div className='absolute' style={{ left: bagIconLeft, top: bagIconTop }}>
-                            <button className='text-white p-1.5 flex justify-center items-center w-9' style={{ borderRadius: "9px 0 9px 0", background: "linear-gradient(71.85deg, #91AAFF 2.68%, #3752D7 97.55%)" }}>
+                            <button className='text-white p-1.5 flex justify-center items-center w-9' style={{ borderRadius: "9px 0 16px 0", background: "linear-gradient(71.85deg, #91AAFF 2.68%, #3752D7 97.55%)" }}>
                                 <Image src={bag} />
                             </button>
                         </div>

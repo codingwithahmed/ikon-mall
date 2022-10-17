@@ -4,11 +4,12 @@ import { AuthInputField, NewsLetterInputField, WhiteButton } from "./Common"
 export const Footer = () => {
 
     return (
-        <footer className="min-h-screen relative" >
+        <footer className="min-h-screen flex-col mt-8 flex relative" >
 
-            <div className="grid grid-cols-12 flex-1" >
+            <div className="grid grid-cols-12 " >
                 <div className="col-span-10 grid grid-cols-12 bg-newsletter col-start-2" style={{
-                    backgroundImage : "url('/footer/background.png')"
+                    backgroundImage : "url('/footer/background.png')",
+                    zIndex:'1'
                 }}>
 
                     
@@ -31,18 +32,17 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex flex-1 w-full justify-center items-center absolute flex-col bg-indigo-50" style={{
-                minHeight:"65vh",
-                top:"40%",
-                zIndex:-1
+            <div className="flex  w-full justify-center bg-indigo-50 items-center absolute flex-col" style={{
+                minHeight:"70vh",
+                top:"30%",
             }}>
 
-            <div className="grid grid-cols-12" >
+            <div className="grid grid-cols-12 " >
                     <img className="col-start-2 col-span-1" src='/header/logo.svg' />
 
                     <div className="col-start-4 col-span-6 w-full items-center grid grid-rows-2">
 
-                         <nav className="row-span-1 flex flex-row justify-evenly items-center w-full">
+                         <nav className="row-span-1 flex flex-row justify-evenly items-center  w-full" >
                             <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/policy'}>Privacy Policy</Link></div>
                             <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/terms'}>Terms &Services</Link></div>
                             <div className=" px-3 body-regular whitespace-nowrap cursor-pointer"><Link href={'/about'}>About us</Link></div>

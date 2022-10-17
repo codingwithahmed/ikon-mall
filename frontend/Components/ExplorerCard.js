@@ -50,7 +50,7 @@ function ExplorerCard() {
 
                                     <div className='flex flex-col'>
                                     <a href={'/profile/shop'}><PrimaryButton className={'body-regular my-3'}> <p className='text-white'>View Shop</p>  </PrimaryButton></a>
-                                            <OutlinedPrimaryButton className={'body-regular my-3'}> <p className='main-purple'>Message</p> </OutlinedPrimaryButton>
+                                            <OutlinedPrimaryButton className={'body-regular my-3'}> <p className='main-purple'><Link href={'/profile/user/message'}>Message</Link></p></OutlinedPrimaryButton>
                                     </div>
                             </div>  
                     </div>

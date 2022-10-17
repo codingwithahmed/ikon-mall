@@ -100,7 +100,7 @@
 .bg-newsletter {
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 80vh;
+    min-height: 50vh;
     background-position: center center;
 }
 
@@ -298,6 +298,148 @@ line-height: 20px;
     box-shadow: 0px 8px 20px rgba(0, 16, 92, 0.12);
     border-radius: 8px;
 }
+
+.emptysate-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.bg-circle {
+    background-image: url('../public/index/circle.svg')  ;
+    background-repeat: no-repeat;
+}
+
+.box-shadow-blocked {
+    box-shadow: 10px 10px 54px rgba(23, 23, 50, 0.08);
+}
+
+.box-shadow-dashboard-sidebar {
+    box-shadow: 10px 10px 54px rgba(23, 23, 50, 0.08);
+}
+
+.last-seen-drop-shadow {
+    filter: drop-shadow(0px 4px 4px rgba(145, 170, 255, 0.2));
+}
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+
+
+
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CBD5E1;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 2px 4px 20px rgba(27, 36, 85, 0.1);
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 42px;
+    width: 42px;
+    left: -4px;
+    bottom: -4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background: linear-gradient(102.09deg, #91AAFF 10.2%, #3752D7 90.17%);  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(34px);
+    -ms-transform: translateX(34px);
+    transform: translateX(34px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  /* ---------------------------------------*/
+
+
+  .order-dashboard-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+
+  .order-dashboard-order-text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+  }
+
+  .order-dashboard-review-order-text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+  }
+
+
+  .review-dashobard-body {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  .heading-order-detail {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+  }
+
+
 @media screen and (min-width : 2560px ) {
     .hero-3 {
         left: 67%;

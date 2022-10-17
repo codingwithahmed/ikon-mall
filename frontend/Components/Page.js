@@ -13,7 +13,7 @@ export const Page = ({
     return <>
             <Header /> 
 
-            <main className='min-h-screen'>
+            <main className=''>
                     { children }
             </main>
 

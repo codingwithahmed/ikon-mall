@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 import { BreadCrumbs, OutlinedPrimaryButton, PrimaryButton } from "../../Components/Common"
 import { Page } from "../../Components/Page"
@@ -267,7 +268,7 @@ export const SingleProduct = () => {
 
                         <div className="flex-1 flex flex-row items-center justify-end">
                                     <OutlinedPrimaryButton className={'main-purple font-semibold'}>
-                                            Message
+                                            <Link href={'/profile/user/message'}>Message</Link>
                                     </OutlinedPrimaryButton>
                         </div>
                     </div>
